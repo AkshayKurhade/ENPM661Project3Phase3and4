@@ -24,7 +24,6 @@ def checkifobstacle(node):
 
     # center circle
     if (x - 510) ** 2 + (y - 510) ** 2 <= (100 + radius + clearance) ** 2:
-        #         print('THIS POINT IS INSIDE : > circle shaped obstacle at the center')
         return False
 
     # top circle
