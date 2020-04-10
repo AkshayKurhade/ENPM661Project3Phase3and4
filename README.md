@@ -4,6 +4,8 @@
 
 ### Note-All Dimensions were considered to be in millimeters(mm)
 
+# Output video Link-https://youtu.be/RoZN09WYEkI
+
 # Required Libraries-
     1) Matplotlib
     2) Numpy
@@ -35,9 +37,9 @@
     rpm_r =enter the right wheel RPM        %8
     clearance =enter the clearance of the robot %100
  ## Output-
-   ### All Explored Nodes
+ ## All Explored Nodes
    <img src="https://github.com/AkshayKurhade/ENPM661Project3Phase3and4/blob/master/Output/Explored%20path.png" width="480">
-   ### Backtracked Optimised Path
+ # BacktrackedPath
    <img src="https://github.com/AkshayKurhade/ENPM661Project3Phase3and4/blob/master/Output/backtracked_path.png" width="480">
  
    
