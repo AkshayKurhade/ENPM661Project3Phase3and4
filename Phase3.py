@@ -1,12 +1,12 @@
-import numpy as np
-import math
 import cv2
 import matplotlib.pyplot as plt
 from Worldmap import *
 from Functions import *
 import time
 
-print("This project plans a path for the TurtleBot taking into consideration its holonomic constraints \n and uses Astar algorithm to solve the obstacle space")
+print(
+    "This project plans a path for the TurtleBot taking into consideration its holonomic constraints \n and uses Astar algorithm to solve the obstacle space")
+print("All the Parameters are Pre-configured, to test a custom configuration set the 'userdefined' flag to True")
 userdefined = False
 if userdefined:
     start_x = float(input("enter start x co-ordinate"))
@@ -40,6 +40,7 @@ elif goal in obstacle_list:
 else:
     new_canvas, map_points = worldmap()
     cv2.imshow("world", new_canvas)
+    cv2.imwrite("Map.png",new_canvas)
     cv2.waitKey(20)
     start_time = time.time()
 
@@ -83,7 +84,7 @@ else:
     # making a copy for backtracking purpose
     new_canvas_copy_backtrack = new_canvas.copy()
     new_canvas_copy_visited = new_canvas.copy()
-    out = cv2.VideoWriter('Visited.avi', cv2.VideoWriter_fourcc(*'XVID'), 15, (1020, 1020))
+    out = cv2.VideoWriter('Phase3Output.avi', cv2.VideoWriter_fourcc(*'XVID'), 15, (1020, 1020))
     # visited path
     for visit_path in new_list_visited:
         # print(path)
