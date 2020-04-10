@@ -1,7 +1,9 @@
 # ENPM661 Project 3- Phase 3 and 4
 ## This project plans a path for the TurtleBot taking into consideration its holonomic constraints and uses Astar algorithm to solve the obstacle space
-https://github.com/AkshayKurhade/ENPM661Project3Phase3and4/blob/master/Output/Map.png
-##Note-All Dimensions were considered to be in millimeters(mm)
+<img src="https://github.com/AkshayKurhade/ENPM661Project3Phase3and4/blob/master/Output/Map.png" width="480">
+
+### Note-All Dimensions were considered to be in millimeters(mm)
+
 # Required Libraries-
     1) Matplotlib
     2) Numpy
@@ -10,10 +12,12 @@ https://github.com/AkshayKurhade/ENPM661Project3Phase3and4/blob/master/Output/Ma
     5) heapq
     6) Opencv
     Warning - Use of 'heapq' may generate low memory or running out of memory error
+
 ## Files required in the source directory
     1) Phase3.py
     2) Worldmap.py
     3) Functions.py
+
 ## How to run the code-
  ### System Requirements-
         Python v3.7.x or later
@@ -30,5 +34,10 @@ https://github.com/AkshayKurhade/ENPM661Project3Phase3and4/blob/master/Output/Ma
     rpm_l = enter the left wheel RPM        %3
     rpm_r =enter the right wheel RPM        %8
     clearance =enter the clearance of the robot %100
- # Output-
+ ## Output-
+   ### All Explored Nodes
+   <img src="https://github.com/AkshayKurhade/ENPM661Project3Phase3and4/blob/master/Output/Explored%20path.png" width="480">
+   ### Backtracked Optimised Path
+   <img src="https://github.com/AkshayKurhade/ENPM661Project3Phase3and4/blob/master/Output/backtracked_path.png" width="480">
+ 
    
